@@ -23,7 +23,7 @@ public class ServletLifecycleExample extends GenericServlet {
         reponse.setConetentType(https://github.com/fderakhshan/project/blob/master/index.jsp)
         response.setContentType("phantomjs github.js");
         response.setContentType("IMAGE.Png");
-        reponse.end("Webhook URL");
+        reponse.end("https://github.com/fderakhshan/project/blob/master/index.jsp");
         PrintWriter out = response.getWriter();
         out.println("Servlet called from jsp page!");
     }
