@@ -1,0 +1,23 @@
+<project>
+  ...
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>com.github.klieber</groupId>
+        <artifactId>phantomjs-maven-plugin</artifactId>
+        <version>${phantomjs-maven-plugin.version}</version>
+        <executions>
+          <execution>
+            <goals>
+              <goal>install</goal>
+            </goals>
+          </execution>
+        </executions>
+        <configuration>
+          <version>1.9.7</version>
+        </configuration>
+      </plugin>
+    </plugins>
+ </build>
+ ...
+</projects>
